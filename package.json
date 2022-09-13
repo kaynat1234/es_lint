@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "eslint": "./node_modules/.bin/eslint resources/assets/js/ test/ --ext .js,.vue"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "eslint": "^8.23.0",
+        "eslint-loader": "^4.0.2",
+        "eslint-plugin-vue": "^9.4.0",
+        "laravel-mix": "^6.0.6",
+        "laravel-mix-eslint-config": "^0.1.7",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14"
+    },
+    "dependencies": {
+        "eslint-plugin-react": "^7.31.7",
+        "eslint-webpack-plugin": "^3.2.0",
+        "laravel-mix-eslint": "^0.2.0"
+    }
+}
